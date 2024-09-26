@@ -18,7 +18,6 @@ export default function Search({ placeholder }: { placeholder: string }) {
 
   const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     handleSearch(e.target.value);
-    return null;
   };
 
   return (
